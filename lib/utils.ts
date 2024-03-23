@@ -39,7 +39,7 @@ export function constructMetadata({
       creator: "@piraharish",
     },
     icons,
-    metadataBase: new URL("https://forecastify-weather.vercel.app/"),
+    metadataBase: new URL("https://sumai-summarizer.vercel.app"),
     ...(noIndex && {
       robots: {
         index: false,
