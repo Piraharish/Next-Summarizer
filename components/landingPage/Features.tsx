@@ -1,3 +1,4 @@
+import { FaReadme } from "react-icons/fa6";
 import { FeatureItems } from "./FeatureItems";
 
 const Features = () => {
@@ -5,8 +6,8 @@ const Features = () => {
     <section id="features">
       <div>
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
-            Attain concise understanding
+          <div className="inline-flex items-center text-base font-semibold py-1 px-3 m-2 text-green-800 bg-green-200 rounded-full mb-4">
+            <FaReadme className="mr-2" /> Attain concise understanding
           </div>
           <h2 className="text-4xl font-extrabold mt-3 mb-4">
             Single platform, endless summaries

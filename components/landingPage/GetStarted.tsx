@@ -5,7 +5,11 @@ const GetStarded = () => {
   return (
     <section id="getstarted">
       <div>
-        <h2 className="text-center text-3xl font-bold mb-16">Get Started</h2>
+        <h2 className="text-center text-3xl font-bold mb-4">Get Started</h2>
+        <p className=" text-center text-lg text-muted-foreground mb-16">
+          Want to know how to get started? It&apos;s very simple. Just follow
+          the steps below.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
           <UseCard
             icon={<FaUser className="w-7 h-7" />}

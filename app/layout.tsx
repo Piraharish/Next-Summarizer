@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/Navbar";
 import { constructMetadata } from "@/lib/utils";
 import { SessionProvider } from "next-auth/react";
 import { Poppins } from "next/font/google";
+import Image from "next/image";
 import "./globals.css";
 
 const popins = Poppins({
@@ -21,7 +22,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={popins.className}>
         <SessionProvider>
-          <div className="absolute bg-hero-pattern bg-cover bg-no-repeat bg-center -z-10 w-full max-w-[100vw] h-screen" />
+          <Image
+            src="/herobg.png"
+            alt="hero"
+            width={2880}
+            height={1566}
+            quality={100}
+            className="absolute -z-10 w-full max-w-[100vw] h-screen"
+          />
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <Navbar />
             {children}

@@ -40,7 +40,7 @@ const Footer = () => {
                 &copy; {new Date().getFullYear()}, All rights reserved
               </span>
             </div>
-            <Button variant="link" asChild className="px-0 mt-8">
+            <Button variant="link" asChild className="px-0 mt-8 text-muted-foreground">
               <Link
                 href="https://piraharish.vercel.app"
                 target="_blank"
@@ -55,7 +55,7 @@ const Footer = () => {
               <div key={index} className="flex flex-col items-start">
                 <h4 className="font-medium mb-2 px-4">{linkGroup.title}</h4>
                 {linkGroup.items.map((link, idx) => (
-                  <Button key={idx} variant="link" asChild>
+                  <Button key={idx} variant="link" asChild className="text-muted-foreground">
                     <Link href={link.href}>{link.label}</Link>
                   </Button>
                 ))}

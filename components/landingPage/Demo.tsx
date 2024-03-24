@@ -22,7 +22,6 @@ const Demo = () => {
             width={1920}
             height={1080}
             quality={100}
-            priority
             className="object-cover"
           />
         </CarouselItem>

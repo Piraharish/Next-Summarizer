@@ -35,7 +35,7 @@ export const FeatureItems: React.FC<FeatureItemProps> = ({
       className={`flex flex-col-reverse gap-6 ${flexDirection} w-full justify-between max-w-3xl md:max-w-4xl lg:max-w-full mx-auto`}
     >
       <div className={`lg:w-1/2 ${padding}`}>
-        <div className={`${architects.className} text-xl text-primary mb-3`}>
+        <div className={`${architects.className} text-2xl text-primary mb-3`}>
           {title}
         </div>
         <h3 className="mb-3 font-bold text-3xl">{subtitle}</h3>

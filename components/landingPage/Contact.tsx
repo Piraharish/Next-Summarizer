@@ -3,6 +3,7 @@ import {
   FaFacebookF,
   FaFacebookMessenger,
   FaGithub,
+  FaHandshakeSimple,
   FaLinkedinIn,
   FaUserSecret,
   FaXTwitter,
@@ -14,6 +15,10 @@ const Contact = () => {
     <section id="contact">
       <div>
         <div className="mb-14 text-center">
+          <div className="inline-flex items-center text-base font-semibold py-1 px-3 m-2 text-green-800 bg-green-200 rounded-full mb-4">
+            <FaHandshakeSimple className="mr-2" />
+            Get in touch
+          </div>
           <h2 className="text-4xl font-extrabold mt-3 mb-4">Contact</h2>
           <p className="text-lg text-muted-foreground">
             You can send a mail to me on&nbsp;
