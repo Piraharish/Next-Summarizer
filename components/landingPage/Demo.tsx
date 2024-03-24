@@ -18,41 +18,41 @@ const Demo = () => {
         <CarouselItem>
           <Image
             src="/register.png"
-            alt="demo"
+            alt="demo1"
             width={1920}
             height={1080}
-            quality={100}
-            className="object-cover"
+            loading="lazy"
+            className="object-contain"
           />
         </CarouselItem>
         <CarouselItem>
           <Image
             src="/login.png"
-            alt="demo"
+            alt="demo2"
             width={1920}
             height={1080}
-            quality={100}
-            className="object-cover"
+            loading="lazy"
+            className="object-contain"
           />
         </CarouselItem>
         <CarouselItem>
           <Image
             src="/summarizer.png"
-            alt="demo"
+            alt="demo3"
             width={1920}
             height={1080}
-            quality={100}
-            className="object-cover"
+            loading="lazy"
+            className="object-contain"
           />
         </CarouselItem>
         <CarouselItem>
           <Image
             src="/summary.png"
-            alt="demo"
+            alt="demo4"
             width={1920}
             height={1080}
-            quality={100}
-            className="object-cover"
+            loading="lazy"
+            className="object-contain"
           />
         </CarouselItem>
       </CarouselContent>

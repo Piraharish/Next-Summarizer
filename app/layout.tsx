@@ -25,10 +25,9 @@ export default function RootLayout({
           <Image
             src="/herobg.png"
             alt="hero"
-            width={2880}
-            height={1566}
+            fill
             quality={100}
-            className="absolute -z-10 w-full max-w-[100vw] h-screen"
+            className="absolute object-cover -z-10 w-full max-w-[100vw] h-screen"
           />
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <Navbar />
